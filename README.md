@@ -2,4 +2,4 @@
 
 still in progress
 
-check it out:https://kickas.github.io/portfoilo/
+check it out:https://kickas.github.io/my-portfolio/
