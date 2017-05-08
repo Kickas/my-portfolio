@@ -1,0 +1,159 @@
+body{
+	height: 100%;
+	width: 100%;
+	min-width: 450px;
+	margin:0;
+	padding:0;
+	
+	font-family: 'Open Sans', sans-serif;
+
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+li{
+	
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;}
+
+#header{
+	background-color: #111111 ;
+	opacity: 0.5;
+	width: 90%;
+	padding:0 auto;
+	float: right;
+	text-align: right;
+	
+	position: absolute;
+	z-index: 99;
+
+}
+
+#header li{
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	font-size: 30px;
+	margin:0 20px;
+	
+
+}
+#header li:hover{
+	text-decoration: underline;
+	color: white;
+	opacity: 1;
+}
+.section{
+	height:100%;
+	background-image: url("image/joey-sforza-20571.JPG") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+
+
+}
+.sub{
+	height:90%;
+	width: 100%;
+	margin:5px;
+
+	text-align: center;
+}
+#s1{
+	padding-top: 100px;
+	width:100%;
+	height:500px;
+	text-align: center;
+
+}
+#name{
+
+	font-size: 60px;
+
+}
+
+.sub h3{
+	font-size: 30px;
+}
+.sub div{
+
+	display: inline-block;
+	
+}
+#img img{
+	width:450px;
+
+	
+}
+#img{
+	padding: 4px;
+	width: 40%;
+margin: 2px;
+z-index: 0;
+}
+#text{
+	width:40%;
+	text-align: left;
+	font-size: 20px;
+	padding: 15px;
+	z-index: 0;
+}
+@media screen and ( max-width: 1108px){
+	#text{
+width: 90%;
+	}
+	#text{
+
+	font-size: 17px;}
+	#img{
+	width: 100%;
+}
+#img img{
+	width:80%;
+
+}
+	#name{
+
+	font-size: 40px;
+
+}
+
+
+
+#header li{
+	font-size: 23px;
+}
+}
+@media screen and ( max-width: 500px){
+	#header li{
+	font-size: 19px;
+	margin:0 8px;
+
+	}
+
+	#img img{
+		width:300px;
+		
+	}
+	#name{
+
+		font-size: 30px;
+
+	}
+	.sub h3{
+		font-size: 20px;
+		}
+	#text{
+		font-size: 15px;
+		padding: 15px;
+		z-index: 0;
+		}
+	}
+a[ id= "about" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
