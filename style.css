@@ -91,6 +91,32 @@ li{
 
 	
 }
+}
+#m1,#m2,#m3,#m4,#m5{
+	transition:width 1s;
+
+}
+#m1:hover{
+	
+	width:220px;
+}
+#m2:hover{
+	
+	width:200px;
+}
+#m3:hover{
+	
+	width:220px;
+}
+#m4:hover{
+	
+	width:420px;
+}
+#m5:hover{
+	
+	width:220px;
+}
+
 #img{
 	padding: 4px;
 	width: 40%;
