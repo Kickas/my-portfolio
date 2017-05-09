@@ -212,7 +212,6 @@ width: 90%;
 		z-index: 0;
 		}
 	}
-a[ id= "about" ]:target ~ #main article.panel {
-    -webkit-transform: translateY( -1000px );
-    transform: translateY( -1000px );
+#footer{
+	padding:10px;
 }
