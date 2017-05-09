@@ -50,7 +50,7 @@ li{
 }
 .first{
 	height:100%;
-	background-image: url("image/joey-sforza-20571.jpg") ;
+	background-image: url("12.jpg") ;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -133,7 +133,7 @@ z-index: 0;
 .second{
 	text-align: center;
 	height:100%;
-	background-image: url("image/6.jpeg") ;
+	background-image: url("image/11.jpg") ;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
