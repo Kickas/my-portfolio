@@ -144,7 +144,6 @@ z-index: 0;
 }
 
 
-
 }
 
  h3{
@@ -155,7 +154,6 @@ z-index: 0;
 	font-size: 35px;
 	text-align: center;
 }
-
 #subd{
 	background-color: #f2f0ef;
 	height:50%;
@@ -231,7 +229,7 @@ width: 90%;
 	padding:10px;
 }
 .portu{
-	margin: 5%;
+	margin: 6%;
 	position: relative;
 	display: inline-block;
 	border-radius: 7px;
