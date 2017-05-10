@@ -115,7 +115,7 @@ z-index: 0;
 
 
 }
-#m1,#m2,#m3,#m4,#m5{
+#m1,#m2,#m3,#m4,#m5,#m6{
 	transition:width 1s;
 
 }
@@ -139,6 +139,10 @@ z-index: 0;
 	
 	width:220px;
 }
+#m6:hover{
+	width: 110px;
+}
+
 
 
 }
