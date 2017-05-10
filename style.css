@@ -20,9 +20,8 @@ li{
 	display: inline-block;}
 
 #header{
-	background-color: #111 ;
-	opacity:0.8;
-	
+	background-color: #111111 ;
+	opacity: 0.5;
 	width: 90%;
 	padding:0 auto;
 	float: right;
@@ -91,32 +90,6 @@ li{
 
 	
 }
-
-#m1,#m2,#m3,#m4,#m5{
-	transition:width 1s;
-
-}
-#m1:hover{
-	
-	width:220px;
-}
-#m2:hover{
-	
-	width:200px;
-}
-#m3:hover{
-	
-	width:220px;
-}
-#m4:hover{
-	
-	width:420px;
-}
-#m5:hover{
-	
-	width:220px;
-}
-
 #img{
 	padding: 4px;
 	width: 40%;
@@ -142,6 +115,34 @@ z-index: 0;
 
 
 }
+#m1,#m2,#m3,#m4,#m5{
+	transition:width 1s;
+
+}
+#m1:hover{
+	
+	width:220px;
+}
+#m2:hover{
+	
+	width:200px;
+}
+#m3:hover{
+	
+	width:220px;
+}
+#m4:hover{
+	
+	width:420px;
+}
+#m5:hover{
+	
+	width:220px;
+}
+
+
+}
+
  h3{
 	font-size: 35px;
 	text-align: center;
@@ -150,7 +151,7 @@ z-index: 0;
 	font-size: 35px;
 	text-align: center;
 }
-#su
+
 #subd{
 	background-color: #f2f0ef;
 	height:50%;
@@ -171,15 +172,15 @@ z-index: 0;
 	#text{
 width: 90%;
 	}
-	.head3{
-	font-size: 25px;
-	text-align: center;
-}
 	#text{
 
 	font-size: 17px;}
 	#img{
 	width: 100%;
+}
+.head3{
+	font-size: 25px;
+	text-align: center;
 }
 #img img{
 	width:80%;
@@ -226,7 +227,7 @@ width: 90%;
 	padding:10px;
 }
 .portu{
-	margin: 5%;
+	margin: 6%;
 	position: relative;
 	display: inline-block;
 	border-radius: 7px;
@@ -269,4 +270,3 @@ font-family: 'JosefinSlab'; }
   top:0px;
   
 }
-
